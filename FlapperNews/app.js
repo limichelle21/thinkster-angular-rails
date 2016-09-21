@@ -1,8 +1,9 @@
-angular.module('flapperNews', [])
+var flapperNews = angular.module('flapperNews', []);
+
 .controller('MainCtrl', [
 	'$scope', 
 	function($scope){
-		$scope.test = 'Hello World';
+		$scope.test = 'Hello World!';
 	}]);
 
 $scope.posts = [
